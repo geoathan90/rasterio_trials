@@ -1,0 +1,11 @@
+{
+      "name": "geo-codespace",
+        "image": "mcr.microsoft.com/devcontainers/miniconda:0-3",
+          "postCreateCommand": "mamba env update -n base -f environment.yml && python -m pip install --upgrade pip",
+            "customizations": {
+                "vscode": {
+                      "extensions": ["ms-python.python", "ms-toolsai.jupyter"]
+                          }
+                            }
+                            }
+}
